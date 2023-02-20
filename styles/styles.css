@@ -43,45 +43,45 @@ body {
 
 /* Шапка*/
 .main-header {
-color: #000000;
-background-color: #FFFFFF;
+    color: #000000;
+    background-color: #FFFFFF;
 }
 
 /* Навигация */
 .navigation-link {
-font-size: 20px;
-line-height: 24px;
-font-weight: 700;
-color: #000000;
-text-align: center;
-text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
 
 }
 
 .user-link-buttom {
-font-size: 16px;
-line-height: 20px;
-font-weight: 700;
-color: #FFFFFF;
-background-color: #756157;
-text-align: center;
-text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #756157;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* верхний блок*/
 .top-section {
-background-color: #82B3D3;
-color: #FFFFFF;
-background-image: url("../images/view/background.jpg");
-background-size: 100% auto;
-background-repeat: no-repeat;
+    background-color: #82B3D3;
+    color: #FFFFFF;
+    background-image: url("../images/view/background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .title {
-font-size: 30px;
-line-height: 36px;
-font-weight: 700;
-text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .description-text {
@@ -92,79 +92,82 @@ text-transform: uppercase;
 /* Преимущества*/
 
 .advantages-section {
-text-align: center;
+    text-align: center;
 }
 
 .advantages-subtitle,
 .services-subtitle {
-font-size: 24px;
-line-height: 28px;
-font-weight: 700;
-text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .advantages-item {
-background-color: #82B3D3;
-color: #FFFFFF;
-width: 400px;
-height: 385px;
+    background-color: #82B3D3;
+    color: #FFFFFF;
+    width: 400px;
+    height: 385px;
 }
 
 .background-light-blue {
-background-color: rgba(131, 179, 211, 0.12);
-color: #000000;
+    background-color: rgba(131, 179, 211, 0.12);
+    color: #000000;
 }
 
 .background-blue {
-background-color: rgba(131, 179, 211, 0.2);
-color: #000000;
+    background-color: rgba(131, 179, 211, 0.2);
+    color: #000000;
 }
 
 
 /* Сервис */
 .services-section {
-text-align: center;
+    text-align: center;
 }
 
 .services-item {
-width: 400px;
-height: 385px;
+    width: 400px;
+    height: 385px;
 }
+
 
 /* Поиск */
 .hotels-section {
-text-align: center;
+    text-align: center;
 }
+
 
 /* Рассылка */
 .subscribe-section {
-background-color: #82B3D3;
-color: #FFFFFF;
-background-image: url("../images/view/subscribe.jpg");/* почему картинка обрезалась по высоте?*/
-background-size: 100% auto;
-background-repeat: no-repeat;
-text-align: center;
+    background-color: #82B3D3;
+    color: #FFFFFF;
+    background-image: url("../images/view/subscribe.jpg");/* почему картинка обрезалась по высоте?*/
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
-.button-search-hotels {
-background-color: #82B3D3;/* не применился цвет к кнопке, почему?*/
+.subscribe-button {
+    background-color: #82B3D3;
 
 }
 
-    /* Подвал */
+
+/* Подвал */
 .page-footer {
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
 
 }
 
 .page-footer a {
-color: #000000;
-text-align: center;
-text-decoration: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
 }
 
 .footer-contacts-phone {
-font-size: 40px;
-line-height: 40px;
+    font-size: 40px;
+    line-height: 40px;
 
 }
