@@ -27,7 +27,7 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Кнопка */
+/* КНОПКИ */
 .button {
     font-family: inherit;
     font-size: 20px;
@@ -39,6 +39,52 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.user-link-buttom {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #756157;
+    text-align: center;
+    text-decoration: none;
+}
+
+.subscribe-button,
+.add-favorites-button {
+    background-color: #82B3D3;
+
+}
+
+.button-inner {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.button-reset {/* фон кнопки сделала прозрачным правильно?*/
+    background-color: transparent;
+}
+
+.in-favorites-button {
+    background-color: #7DB54F;
+
+}
+
+
+
+
+
+/*
+.hotel-filter-button {
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+*/
+
 
 /*.visually-hidden {
     position: absolute;
@@ -70,15 +116,7 @@ body {
 
 }
 
-.user-link-buttom {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 700;
-    color: #FFFFFF;
-    background-color: #756157;
-    text-align: center;
-    text-decoration: none;
-}
+
 
 /* верхний блок*/
 .top-section {
@@ -162,11 +200,6 @@ body {
     text-align: center;
 }
 
-.subscribe-button {
-    background-color: #82B3D3;
-
-}
-
 
 /* Подвал */
 .page-footer {
@@ -226,7 +259,7 @@ body {
     color: #333333;
 }
 
-.hotel-card a {
+.hotel-card .hotel-card-link {
     color: #000000;
     text-align: left;
     text-decoration: none;
@@ -240,4 +273,30 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     text-align: center;
+}
+
+/* ПАГИНАЦИЯ */
+
+.pagination {
+    background-color: #FFFFFF;
+}
+
+.pagination-link{
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pagination-current {
+    color: #000000;
+    background-color: #F2F2F2;
+}
+
+.pagination-further {
+    color: #000000;
+    background-color: #FFFFFF;
 }
