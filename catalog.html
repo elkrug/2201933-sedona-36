@@ -27,16 +27,16 @@
           </li>
         </ul>
       </nav>
-      <ul class="navigation-list navigation-user">
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
+      <ul class="user-list">
+        <li class="user-item">
+          <a class="user-link" href="#">
             <span class="visually-hidden">
               Поиск
             </span>
           </a>
         </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
+        <li class="user-item">
+          <a class="user-link" href="#">
             <span class="visually-hidden">
               Избранное
             </span>
@@ -45,8 +45,8 @@
             </span>
           </a>
         </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">Хочу сюда!</a>
+        <li class="user-item">
+          <a class="user-link-buttom" href="#">Хочу сюда!</a>
         </li>
       </ul>
 
@@ -58,7 +58,7 @@
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">
-              <img class="breadcrumbs-link-icon" src="images/vectors/home.svg"  width="12" height="12" alt="Иконка главной страницы">
+              <img class="breadcrumbs-link-icon" src="images/vectors/home.svg"  width="12" height="12" alt="Возврат на главную страницу">
               <p class="visually-hidden">Главная страница</p>
             </a>
           </li>
@@ -127,7 +127,7 @@
             </fieldset>
 
             <button class="button hotel-filter-button" type="submit">Применить</button>
-            <button class="button  hotel-filter-button" type="reset">Очистить</button>
+            <button class="button  hotel-filter-button" type="reset">Сбросить</button>
 
           </form>
 
@@ -136,7 +136,7 @@
       </section>
 
       <section class="serch-result">
-        <h2 class="search-result-title">Найдено гостиниц: 38</h2>
+        <h2 class="search-result-title headline">Найдено гостиниц: 38</h2>
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвое</option>
           <option value="expensive">Сначала дорогое</option>
@@ -233,10 +233,10 @@
         </ol>
       </section>
 
-      <section class="subscribe">
-        <h2 class="subscribe-title-inner">Подпишитесь на рассылку</h2>
-        <p class="subscribe-text-inner">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+      <section class="subscribe-section-inner">
+      <h2 class="subscribe-title headline-inner">Подпишитесь на рассылку</h2>
+      <p class="subscribe-description-inner description-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="subscribe-email">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email"
             required>
